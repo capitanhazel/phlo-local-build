@@ -1,0 +1,19 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: hsl(0, 0%, 100%);
+        --fg: hsl(0, 0%, 12%);
+        --shadow: black;
+        --timer-color: rgb(0, 0, 0);
+        --navigator-bar-elements-padding: 10px 50px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: hsl(0, 0%, 3%);
+        --fg: hsl(0, 0%, 100%);
+        --shadow: var(--bg);
+        --timer-color: rgb(255, 79, 173);
+        --navigator-bar-elements-padding: 10px 50px;
+    }
+}

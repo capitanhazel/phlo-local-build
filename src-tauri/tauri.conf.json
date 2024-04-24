@@ -14,16 +14,19 @@
       "shell": {
         "all": false,
         "open": true
+      },
+      "globalShortcut": {
+        "all": true
       }
     },
     "windows": [
       {
-        "title": "My App",
+        "title": "Navigator",
         "width": 1920,
         "height": 70,
         "x": 0,
         "y": 0,
-        "resizable": false,
+        "resizable": true,
         "fullscreen": false,
         "transparent": true,
         "decorations": false,
